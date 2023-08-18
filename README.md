@@ -1,6 +1,10 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Run with "yarn dev"
+Other framework used: "Material UI"
+
+mobile responsiveness: 'Not responsive"
+deployed with netlify
 
 Currently, two official plugins are available:
 
