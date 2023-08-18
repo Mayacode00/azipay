@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
 import Logo from "../../assets/footerlogo.svg";
-import image1 from "../../assets/instagram.svg";
-import image2 from "../../assets/twitter.svg";
+import image1 from "../../assets/Instagram.svg";
+import image2 from "../../assets/Twitter.svg";
 import image3 from "../../assets/linkedin.svg";
 import image4 from "../../assets/facebook.svg";
 import Paperplane from "../../assets/send.svg";
