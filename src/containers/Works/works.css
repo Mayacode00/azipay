@@ -1,0 +1,78 @@
+.app__steps {
+  padding: 100px 195px;
+}
+.app__steps_guidelines {
+  display: flex;
+  justify-content: space-between;
+  background: url(../../assets/BG.svg);
+  background-repeat: no-repeat;
+  margin: 100px 0px;
+}
+.app__steps-video {
+  height: 682px;
+  width: 347px;
+  transform: translate(32%, -50px);
+}
+.app__steps-video img {
+  height: 682px;
+  width: 347px;
+  object-fit: cover;
+  border-radius: 60px;
+}
+.app__steps-guide {
+  position: relative;
+}
+.app__steps-guide img {
+  position: absolute;
+  opacity: 1;
+  mask-image: linear-gradient(to bottom, transparent 0%, transparent 100%);
+  animation: fillGreen 5s linear forwards;
+}
+.app__steps-guide .image1 {
+  top: 4%;
+  left: -17%;
+}
+.app__steps-guide .image2 {
+  top: 35%;
+  left: 20%;
+}
+.app__steps-guide-data {
+  margin-bottom: 60px;
+}
+.app__steps-guide-data div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  width: 64px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #f2f1f1;
+  color: var(--color-green);
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.app__steps-guide-data div:hover {
+  -webkit-box-shadow: -4px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -4px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -4px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.6s ease-in;
+}
+
+.app__steps-guide-data h2 {
+  font-family: "Aeonik-bold";
+  font-size: 36px;
+}
+.app__steps-guide-data .p__subtext {
+  font-family: "Aeonik-hard";
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-gray);
+}
+.app__steps-guide-data .p__note {
+  font-family: "Aeonik-Regular";
+  font-size: 16px;
+  color: #515251;
+  line-height: 24px;
+  width: 330px;
+}

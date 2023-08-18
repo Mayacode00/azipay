@@ -1,0 +1,8 @@
+.app__page-header {
+  background: url(../../assets/gradients.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app__page-payment {
+  background: #ffe9e7;
+}

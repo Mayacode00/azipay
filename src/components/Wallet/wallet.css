@@ -1,0 +1,42 @@
+.app__wallet {
+  background: var(--color-green);
+  border-radius: 24px;
+  position: relative;
+  margin: 60px 0;
+}
+.app__wallet-background {
+  background: url(../../assets/Frame48.svg);
+  background-repeat: no-repeat;
+  padding: 31px 32px;
+}
+.app__wallet-background p {
+  font-family: "Aeonik";
+  color: var(--color-mint);
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.app__wallet-background h1 {
+  font-family: "Aeonik";
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+.app__wallet-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.app__wallet-stats button {
+  background: var(--color-mint);
+  color: var(--color-green);
+  padding: 12px 28px;
+  border-radius: 24px;
+  font-family: "Aeonik";
+  text-transform: capitalize;
+  border: none;
+  -webkit-box-shadow: -2px 10px 22px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: -2px 10px 22px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: -2px 10px 22px 0px rgba(0, 0, 0, 0.37);
+}

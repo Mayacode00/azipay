@@ -1,0 +1,111 @@
+.app__payroll {
+  background: url(../../assets/Wave.svg);
+  padding: 180px 195px 70px 195px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.app__payroll-background {
+  position: relative;
+  height: 100vh;
+  background: url(../../assets/Maskgroup.svg);
+}
+.app__payroll-container {
+  display: flex;
+  justify-content: center;
+  /* salign-items: flex-end; */
+  height: 320px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 60px 0;
+  border-radius: 16px;
+  -webkit-box-shadow: -8px 7px 29px -5px rgba(20, 20, 20, 0.66);
+  -moz-box-shadow: -8px 7px 29px -5px rgba(20, 20, 20, 0.66);
+  box-shadow: -8px 7px 29px -5px rgba(20, 20, 20, 0.66);
+}
+
+.app__payroll-box {
+  width: 588px;
+  height: 320px;
+  border-radius: 16px;
+  background: var(--color-green);
+  -webkit-box-shadow: -8px 7px 29px -5px rgba(20, 20, 20, 0.66);
+  -moz-box-shadow: -8px 7px 29px -5px rgba(20, 20, 20, 0.66);
+  box-shadow: -8px 7px 29px -5px rgba(20, 20, 20, 0.66);
+  transition: transform 0.5s ease;
+
+  color: #fff;
+  position: relative;
+}
+.overlay {
+  content: "";
+  position: absolute;
+  width: 100;
+  padding: 64px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  background: rgb(217, 235, 205);
+  background: radial-gradient(
+    circle,
+    rgba(217, 235, 205, 0.0761554621848739) 0%,
+    rgba(17, 69, 59, 1) 100%
+  );
+}
+.app__payroll-box h3 {
+  font-family: "Aeonik-hard";
+  font-size: 28px;
+}
+.app__payroll-box p {
+  font-family: "Aeonik-light";
+  font-size: 18px;
+  line-height: 24px;
+  margin: 1rem 0.6rem 1rem 0;
+}
+
+.box1 {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  transform: translateX(0);
+}
+
+.box2 {
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.box3 {
+  z-index: 100;
+  position: absolute;
+  right: 0;
+  transform: translateX(0);
+}
+
+.box1:hover ~ .box2 {
+  transform: translateX(-15%);
+}
+
+.box2:hover {
+  transform: translateX(-80%);
+}
+.box2:hover ~ .box3 {
+  transform: translateX(10%);
+}
+.app__payroll-note {
+  text-align: center;
+  margin: 0 auto;
+  width: 620px;
+}
+.app__payroll-note p {
+  font-family: "Aeonik-Regular";
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-gray);
+}
+.app__payroll-note span {
+  color: var(--color-orange);
+}

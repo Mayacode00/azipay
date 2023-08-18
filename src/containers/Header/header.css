@@ -1,0 +1,76 @@
+.app__header {
+  padding: 100px 0px 100px 192px;
+  display: flex;
+}
+.app__header-note {
+  padding-top: 80px;
+}
+.app__header-note h1 {
+  font-family: "Mellow-Regular";
+  line-height: 72px;
+  letter-spacing: 0.09rem;
+  font-size: 64px;
+  color: var(--color-black);
+}
+.app__header-note p {
+  font-family: "Aeonik-Regular";
+  font-weight: 400;
+  font-size: 20px;
+  width: 420px;
+  color: var(--color-gray);
+  line-height: 28px;
+  margin: 1rem 0;
+}
+.app__header-note h1::first-letter {
+  text-transform: uppercase;
+}
+.app__header-note h1 .span-payroll {
+  color: var(--color-green);
+}
+.app__header-note h1 .span-easily {
+  color: var(--color-golden);
+}
+.app__header-note h1 .span-seconds {
+  color: var(--color-orange);
+}
+.app__header-note_button {
+  background: var(--color-green);
+  color: #fff;
+  text-transform: capitalize;
+  padding: 16px 36px;
+  border-radius: 32px;
+  font-family: "Aeonik-Regular";
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: 9px 16px 42px -10px rgba(186, 214, 208, 1);
+  -moz-box-shadow: 9px 16px 42px -10px rgba(186, 214, 208, 1);
+  box-shadow: 9px 16px 42px -10px rgba(186, 214, 208, 1);
+}
+.app__header-note_download {
+  margin-top: 70px;
+}
+.app__header-note_download p {
+  font-family: "Aeonik-bold";
+  font-weight: 500;
+  color: #000;
+  font-size: 18px;
+}
+.app__header-note_download-options {
+  display: flex;
+}
+.app__header-note_download-options image {
+  height: 100px;
+  width: 250px;
+}
+.app__header-note_download-options img {
+  object-fit: cover;
+  height: 100px;
+  width: 250px;
+  margin-left: -44px;
+  cursor: pointer;
+}
+.app__header-note_download-options .google {
+  margin-left: -70px;
+}

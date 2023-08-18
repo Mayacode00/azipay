@@ -1,0 +1,15 @@
+.app__dashboard-grid {
+    display: grid;
+    grid-template-columns: 2fr 10fr; 
+    /* gap: 20px; */
+    background: #f9fafc;
+  }
+  
+  .app__dasboard-leftsidebar {
+    grid-column: 1 / span 2;
+  }
+  
+  .app__dashboard-main {
+    grid-column: 2 / span 10;
+    width: 100%;
+  }

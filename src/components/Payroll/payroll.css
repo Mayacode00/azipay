@@ -1,0 +1,79 @@
+.app__payroll-tabs_header h1 {
+  font-family: "Aeonik";
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-gray);
+}
+
+.app__payroll-tabs {
+  -webkit-box-shadow: -2px 10px 22px 0px rgba(60, 60, 60, 0.2);
+  -moz-box-shadow: -2px 10px 22px 0px rgba(60, 60, 60, 0.2);
+  box-shadow: -2px 10px 22px 0px rgba(60, 60, 60, 0.2);
+  border-radius: 20px;
+  border: 1px solid #e7e8e7;
+  margin: 50px 0 0 50px;
+  width: 188px;
+}
+.app__payroll-tabs-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 1px solid #e7e8e7;
+}
+.app__payroll-tabs-date p {
+  font-family: "Aeonik-Regular";
+  color: var(--color-gray);
+  margin-left: 10px;
+  font-size: 14px;
+}
+.app__payroll-tabs-date h1 {
+  font-family: "Aeonik";
+  color: var(--color-gray);
+  font-size: 20px;
+}
+.app__payroll-tabs_header {
+  background: var(--color-mint);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  padding: 10px 0;
+}
+.date-container {
+  display: flex;
+  align-items: center;
+}
+.app__payroll-tab-employee {
+  padding: 20px 15px;
+}
+.app__payroll-tab-employee h2 {
+  font-family: "Aeonik";
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-gray);
+}
+.app__payroll-tab-employee h1 {
+  font-family: "Aeonik";
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+.app__payroll-tab-gender {
+  display: flex;
+  margin-top: 10px;
+}
+.app__payroll-tab-gender h3 {
+  font-family: "Aeonik";
+  color: #8d8e8d;
+  font-size: 16px;
+}
+.app__payroll-tab-gender-male div {
+  height: 8px;
+  background: var(--color-green);
+  width: 78px;
+}
+.app__payroll-tab-gender-female div {
+  height: 8px;
+  width: 78px;
+  background: var(--color-orange);
+}

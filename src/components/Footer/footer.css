@@ -1,0 +1,86 @@
+.app__footer {
+  border: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 195px;
+}
+
+.social-media {
+  display: flex;
+}
+.image-item {
+  margin-right: 20px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.image-item:hover {
+  -webkit-box-shadow: -4px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -4px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -4px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.6s ease-in;
+}
+.app__footer-paragraph {
+  margin: 30px 0;
+  color: #515251;
+}
+.app__footer-paragraph p {
+  font-family: "Aeonik-Regular";
+  font-size: 18px;
+  line-height: 30px;
+}
+.app__footer-link {
+  display: flex;
+}
+.app__footer-link_section {
+  margin-left: 50px;
+}
+.app__footer-link_section h3 {
+  font-family: "Aeonik";
+  font-weight: 500;
+  font-size: 20px;
+}
+.app__footer-link_section ul {
+  margin-top: 30px;
+}
+.app__footer-link_section li {
+  list-style-type: none;
+  color: #7c7c7c;
+  font-family: "Aeonik-Regular";
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.app__footer-link-two {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #f2f1f1;
+  padding: 8px;
+  border-radius: 16px;
+  width: 300px;
+}
+
+.input-field {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  color: var(--color-gray);
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Aeonik-Regular';
+}
+
+.send-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}

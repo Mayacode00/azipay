@@ -1,0 +1,65 @@
+.app__leftsidebar {
+  -webkit-box-shadow: 10px 10px 19px -14px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 10px 10px 19px -14px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 19px -14px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 100;
+}
+.app__leftsidebar-logo {
+  background: url(../../assets/Union.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+}
+.app__leftsidebar-logo div {
+  background: url(../../assets/Maskgroup5.svg);
+  background-repeat: no-repeat;
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app__leftsidebar-active,
+.app__leftsidebar-nonactive {
+  display: flex;
+  border-top: 1px solid #e7e8e7;
+  padding: 18px 15px;
+  position: relative;
+}
+.app__leftsidebar-links-container {
+  margin: 20px 0;
+}
+.app__leftsidebar-link p {
+  font-family: "Aeonik";
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-gray);
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+.app__leftsidebar-active p {
+  color: var(--color-green);
+}
+.app__leftsidebar-active {
+  background: rgba(240, 247, 235, 0.5);
+  border-top: none;
+  border-left: 4px solid var(--color-green);
+}
+.dropdown-arrow {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+}
+.dropdown-arrow-two{
+    position: absolute;
+    right: 1px;
+    top: 50%; 
+}
+.rotate {
+  transition: transform 0.3s ease;
+  transform: rotate(180deg);
+}
+.app__leftsidebar-support{
+    margin: 0 20px;
+}

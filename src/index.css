@@ -1,0 +1,52 @@
+:root {
+  --color-golden: #b4a572;
+  --color-black: #292a29;
+  --color-gray: #515251;
+  --color-orange: #ea4e4b;
+  --color-green: #11453b;
+  --color-mint: #d9ebcd;
+}
+@font-face {
+  font-family: "Aeonik";
+  src: url("fonts/Aeonik-Medium.otf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Mellow";
+  font-weight: 400;
+  src: url("fonts/made-mellow-personal-use.medium.otf") format("truetype");
+}
+@font-face {
+  font-family: "Mellow-Regular";
+  src: url("fonts/made-mellow-personal-use.regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "Aeonik-Regular";
+  font-weight: 400;
+  src: url("fonts/Aeonik-Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "Aeonik-bold";
+  src: url("fonts/Aeonik-Bold.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Aeonik-light";
+  src: url("fonts/Aeonik-Light.otf");
+}
+@font-face {
+  font-family: "Aeonik-hard";
+  src: url("fonts/Aeonik-Bold.otf");
+  font-weight: 700;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}

@@ -1,0 +1,45 @@
+.app__payment {
+  background: url(../../assets/Patterns.svg);
+  padding-bottom: 150px;
+}
+.app__payment img {
+  margin-left: 180px;
+}
+.app__payment-container {
+  padding: 0px 195px;
+  display: flex;
+}
+.app__payment-subscription {
+  margin-top: 100px;
+}
+.app__payment-subscription h2 {
+  font-family: "Mellow-Regular";
+  font-size: 56px;
+  color: var(--color-black);
+  line-height: 64px;
+}
+.app__payment-subscription span {
+  color: var(--color-orange);
+}
+.app__payment-container_download p {
+  font-family: "Aeonik";
+  font-weight: 500;
+  font-size: 18px;
+}
+.app__payment-container_download {
+  margin-top: 50px;
+}
+.app__payment-container_download-options {
+  display: flex;
+  margin-top: 20px;
+}
+.app__payment-container_download-options img {
+  object-fit: cover;
+  height: 100px;
+  width: 250px;
+  margin-left: -44px;
+  cursor: pointer;
+}
+.app__payment-container_download-options .google {
+  margin-left: -70px;
+}

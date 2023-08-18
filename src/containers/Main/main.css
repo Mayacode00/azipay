@@ -1,0 +1,22 @@
+.app__main {
+  margin: 130px 90px;
+}
+.app__main-welcome h1 {
+  font-family: "Aeonik-bold";
+  color: var(--color-black);
+  font-size: 36px;
+  text-transform: capitalize;
+  line-height: 48px;
+}
+.app__main-welcome p {
+  font-family: "Aeonik";
+  font-size: 16px;
+  color: var(--color-gray);
+}
+.app__main-grid{
+  display: grid;
+  grid-template-columns: 8.5fr 3.5fr;
+}
+.flowchat{
+  margin: 40px 0 0 -20px;
+}

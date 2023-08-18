@@ -1,0 +1,59 @@
+.app__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 192px;
+  font-family: "Aeonik";
+  font-weight: normal;
+}
+.app__navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.app__navbar-links {
+  display: flex;
+  flex: 1;
+  color: #515251;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+}
+.app__navbar-links li {
+  margin: 0 1.8rem;
+  list-style-type: none;
+}
+.app__navbar-links li::first-letter {
+  text-transform: uppercase;
+}
+.app__navbar-register {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.app__navbar-register div {
+  margin: 0 0.7rem;
+}
+.app__navbar-register_login,
+.app__navbar-register_reg {
+  color: var(--color-green);
+  border: 1px solid var(--color-green);
+  padding: 10px 32px;
+  border-radius: 24px;
+  width: 170px;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.app__navbar-register_login:hover,
+.app__navbar-register_reg:hover {
+  background: var(--color-green);
+  color: #ffffff;
+  -webkit-box-shadow: 10px 10px 13px -5px rgba(207, 230, 225, 1);
+  -moz-box-shadow: 10px 10px 13px -5px rgba(207, 230, 225, 1);
+  box-shadow: 10px 10px 13px -5px rgba(207, 230, 225, 1);
+}

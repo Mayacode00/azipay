@@ -1,0 +1,13 @@
+.heading_text {
+  text-align: center;
+}
+.p__Mellow {
+  font-family: "Mellow-Regular";
+  color: var(--color-green);
+  line-height: 64px;
+  letter-spacing: 0.06rem;
+}
+.p__Aeonik {
+  font-family: "Aeonik-Regular";
+  font-weight: 400;
+}
