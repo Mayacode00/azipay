@@ -8,8 +8,8 @@ import Google from "../../assets/google.svg";
 const Payment = () => {
   return (
     <div className="app__payment">
-      <img src={Fragment} alt="fragment" />
-      <div className="app__payment-container">
+      <img src={Fragment} alt="fragment" className="fragment"/>
+      <div className="app__payment-container section__container">
         <div className="app__payment-subscription">
           <h2>
             Free forever for your <span>salary payment</span>

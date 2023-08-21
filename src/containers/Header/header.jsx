@@ -6,7 +6,7 @@ import Google from "../../assets/google.svg";
 
 const Header = () => {
   return (
-    <div className="app__header">
+    <div className="app__header section__container">
       <div className="app__header-note">
         <h1 className="">
           run your <span className="span-payroll">payroll</span>{" "}

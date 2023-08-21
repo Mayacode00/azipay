@@ -5,12 +5,12 @@ import Header from "../../containers/Header/header";
 import Payroll from "../../containers/Payroll/payroll";
 import Works from "../../containers/Works/works";
 import Payment from "../../containers/Payment/payment";
-import Demo from "../../containers/DEmo/demo";
+import Demo from "../../containers/Demo/demo";
 import Footer from "../../components/Footer/footer";
 
 const Landing = () => {
   return (
-    <>
+    <div className="app__landing">
       <div className="app__page-header">
         <Navbar />
         <Header />
@@ -22,7 +22,7 @@ const Landing = () => {
       </div>
       <Demo />
       <Footer />
-    </>
+    </div>
   );
 };
 

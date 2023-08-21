@@ -9,7 +9,7 @@ const Demo = () => {
     <div className="app__demo" id="business">
       <img src={Frame3} className="app__demo-background" />
       <img className="app__demo-frame" src={Frame2} />
-      <div className="app__demo-container">
+      <div className="app__demo-container section__container">
         <div className="app__demo-container_note">
           <h3>Get an Exclusive Demo of Eazipay</h3>
           <p>

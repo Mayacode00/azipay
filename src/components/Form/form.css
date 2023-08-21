@@ -62,3 +62,18 @@ button {
   border: none;
   font-size: 16px;
 }
+
+@media screen and (max-width: 700px) {
+  .app__form {
+    width: 370px;
+    padding: 40px 20px;
+  }
+  .app__form-heading {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .app__form {
+    width: 346px;;
+  }
+}

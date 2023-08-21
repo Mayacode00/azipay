@@ -11,3 +11,8 @@
   font-family: "Aeonik-Regular";
   font-weight: 400;
 }
+/* @media screen and (max-width: 700px) {
+  .p__Mellow {
+    line-height: 50px;
+  }
+} */

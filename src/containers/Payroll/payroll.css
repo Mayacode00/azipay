@@ -34,7 +34,6 @@
   -moz-box-shadow: -8px 7px 29px -5px rgba(20, 20, 20, 0.66);
   box-shadow: -8px 7px 29px -5px rgba(20, 20, 20, 0.66);
   transition: transform 0.5s ease;
-
   color: #fff;
   position: relative;
 }
@@ -61,7 +60,7 @@
   font-family: "Aeonik-light";
   font-size: 18px;
   line-height: 24px;
-  margin: 1rem 0.6rem 1rem 0;
+  margin: 1rem 0;
 }
 
 .box1 {
@@ -93,7 +92,7 @@
   transform: translateX(-80%);
 }
 .box2:hover ~ .box3 {
-  transform: translateX(10%);
+  transform: translateX(20%);
 }
 .app__payroll-note {
   text-align: center;
@@ -108,4 +107,89 @@
 }
 .app__payroll-note span {
   color: var(--color-orange);
+}
+@media screen and (max-width: 1150px) {
+  .app__payroll {
+    padding: 180px 40px 0px 40px;
+  }
+  .app__payroll-background {
+    height: 80vh;
+  }
+  .box1:hover ~ .box2 {
+    transform: translateX(30%);
+  }
+  .box1:hover ~ .box3 {
+    transform: translateX(80%);
+  }
+
+  .box2:hover {
+    transform: translateX(-60%);
+  }
+  .box2:hover ~ .box3 {
+    transform: translateX(80%);
+  }
+}
+@media screen and (max-width: 700px) {
+  .app__payroll {
+    padding: 150px 20px 70px 20px;
+  }
+  .app__payroll-note p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 1rem;
+  }
+  .app__payroll-note {
+    text-align: center;
+    margin: 0 auto;
+    width: 320px;
+  }
+
+  .app__payroll-background {
+    height: 100vh;
+  }
+  .app__payroll-box,
+  .app__payroll-container {
+    height: 280px;
+    width: 100%;
+    -webkit-box-shadow: -6px -8px 27px -5px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: -6px -8px 27px -5px rgba(0, 0, 0, 0.45);
+    box-shadow: -6px -8px 27px -5px rgba(0, 0, 0, 0.45);
+  }
+  .app__payroll-box h3 {
+    font-size: 20px;
+  }
+  .app__payroll-box p {
+    font-size: 14px;
+  }
+  .overlay {
+    padding: 20px;
+  }
+
+  .box2 {
+    transform: translate(-50%, 30%);
+  }
+
+  .box3 {
+    transform: translate(0%, 60%);
+  }
+
+  .box1:hover ~ .box2 {
+    transform: translate(-150%, 60%);
+  }
+  .box1:hover ~ .box3 {
+    transform: translate(100%, 60%);
+  }
+
+  .box2:hover {
+    transform: translate(-50%, 0%);
+  }
+  .box2:hover ~ .box3 {
+    transform: translate(100%, 60%);
+  }
+  .box3:hover {
+    transform: translate(0%, 0%);
+  }
+  .box3:hover ~ .box3 {
+    transform: translate(100%, 60%);
+  }
 }

@@ -6,3 +6,6 @@
 .app__page-payment {
   background: #ffe9e7;
 }
+.app__landing{
+  overflow-x: hidden;
+}

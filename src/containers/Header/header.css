@@ -1,6 +1,5 @@
 .app__header {
   padding: 100px 0px 100px 192px;
-  display: flex;
 }
 .app__header-note {
   padding-top: 80px;
@@ -73,4 +72,36 @@
 }
 .app__header-note_download-options .google {
   margin-left: -70px;
+}
+@media screen and (max-width: 1150px) {
+  .app__header {
+    padding: 40px 80px;
+    flex-direction: column;
+  }
+  .app__header-image img {
+    width: 550px;
+    height: 550px;
+    margin-left: 130px;
+  }
+  .app__header-note {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .app__header {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .app__header-note {
+    padding-top: 30px;
+  }
+  .app__header-note p {
+    font-size: 16px;
+    width: 350px;
+  }
+  .app__header-image img {
+    width: 320px;
+    height: 320px;
+    margin-left: 50px;
+  }
 }

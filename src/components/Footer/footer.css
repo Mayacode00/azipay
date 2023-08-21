@@ -74,7 +74,7 @@
   color: var(--color-gray);
   border-radius: 8px;
   font-size: 16px;
-  font-family: 'Aeonik-Regular';
+  font-family: "Aeonik-Regular";
 }
 
 .send-button {
@@ -83,4 +83,37 @@
   outline: none;
   cursor: pointer;
   margin-right: 10px;
+}
+@media screen and (max-width: 1150px) {
+  .app__footer {
+    flex-wrap: wrap;
+    padding: 100px 80px;
+  }
+  .app__footer-link_section {
+    margin-left: 24px;
+  }
+  .app__footer-link_section li {
+    font-size: 14px;
+  }
+  .app__footer-link-two {
+    margin: 20px 0 0 -30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .app__footer {
+    padding: 100px 20px;
+    flex-direction: column;
+  }
+  .app__footer-link {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .app__footer-link_section {
+    margin-left: 0px;
+  }
+  .app__footer-link-two {
+    margin: 20px 0px;
+    justify-content: flex-start;
+  }
+
 }

@@ -33,7 +33,7 @@ const Works = () => {
         subtextFontSize="28px"
         color="#515251"
       />
-      <div className="app__steps_guidelines">
+      <div className="app__steps_guidelines section__container">
         <div className="app__steps-video">
           <img src={Gif} alt="Animated GIF" />
         </div>

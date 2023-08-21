@@ -1,6 +1,6 @@
 import React from "react";
 import "./topbar.css";
-import Logo from "../../assets/Company LOGO.svg";
+import Logo from "../../assets/Company Logo.svg";
 import Notification from "../../assets/notification.svg";
 import Picture from "../../assets/main_profile.jpg";
 import Arrow from "../../assets/right-arrow.svg";

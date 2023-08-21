@@ -1,5 +1,5 @@
 import React from "react";
-import Leftsidebar from "../../components/Sidebar/Leftsidebar";
+import Leftsidebar from "../../components/Sidebar/leftsidebar";
 import "./dashboard.css";
 import Topbar from "../../components/Topbar/topbar";
 import Main from "../../containers/Main/main";
